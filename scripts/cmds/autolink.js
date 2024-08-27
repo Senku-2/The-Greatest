@@ -69,7 +69,7 @@ module.exports = {
       }
 
       const shortUrl = await shortenURL(res);
-      const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🟢 𝘼𝙀-𝙎𝙏𝙃𝙀𝙍 ⚪ `;
+      const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🏀 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 🏀 `;
 
       api.sendMessage({
         body: messageBody,
@@ -95,7 +95,7 @@ module.exports = {
         response.data.pipe(fs.createWriteStream(path));
         response.data.on('end', async () => {
           const shortUrl = await shortenURL(videoUrl);
-          const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🟢 𝘼𝙀-𝙎𝙏𝙃𝙀𝙍 ⚪ `;
+          const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🏀 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 🏀 `;
 
           api.sendMessage({
             body: messageBody,
@@ -123,7 +123,7 @@ module.exports = {
       }
 
       const shortUrl = await shortenURL(res);
-      const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🟢 𝘼𝙀-𝙎𝙏𝙃𝙀𝙍 ⚪ `;
+      const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🏀 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 🏀 `;
 
       api.sendMessage({
         body: messageBody,
@@ -151,7 +151,7 @@ module.exports = {
       response.data.pipe(fs.createWriteStream(path));
       response.data.on('end', async () => {
         const shortUrl = await shortenURL(videoUrl);
-        const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🟢 𝘼𝙀-𝙎𝙏𝙃𝙀𝙍 ⚪ `;
+        const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🏀 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 🏀 `;
 
         api.sendMessage({
           body: messageBody,
@@ -180,7 +180,7 @@ module.exports = {
       response.data.pipe(fs.createWriteStream(path));
       response.data.on('end', async () => {
         const shortUrl = await shortenURL(videoUrl);
-        const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🟢 𝘼𝙀-𝙎𝙏𝙃𝙀𝙍 ⚪ `;
+        const messageBody = `[✅] 𝘼𝙐𝙏𝙊𝙇𝙄𝙉𝙆 Url:\n➤ ${shortUrl}✎\n────────────\n🏀 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 🏀 `;
 
         api.sendMessage({
           body: messageBody,
