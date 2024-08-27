@@ -15,7 +15,7 @@ const fonts = {
 const Prefixes = [
   'ae',
   'ai',
-  'mitama',
+  'Solaris',
   'ask',
   'mitantsoa', 
 ];
