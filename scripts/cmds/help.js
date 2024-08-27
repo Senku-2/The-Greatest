@@ -67,8 +67,8 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\n\n〓〓〓〓〓〓〓〓〓〓〓\n➪[📅] Total Commands [${totalCommands}]\n➪[🛄] OWNER: The GODDESS Aesther\n➪[🔱] NB: use called in any report`;
-      msg += `\n\n/// 💬 AESTHER BOT ////`;
+      msg += `\n\n〓〓〓〓〓〓〓〓〓〓〓\n➪[📅] Total Commands [${totalCommands}]\n➪[🛄] OWNER: 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 𝐉𝐂\n➪[🔱] NB: use called in any report`;
+      msg += `\n\n/// 💬 𝐒𝐎𝐋𝐀𝐑𝐈𝐒 𝐁𝐎𝐓////`;
       msg += ``;
 
       const response = await message.reply({ body: msg });
