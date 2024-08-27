@@ -43,15 +43,15 @@ module.exports = {
       if (!prompt) {
         await message.reply("");
 api.sendMessage({ sticker: "387545578037993" }, event.threadID);
-api.sendMessage("🟢 𝗛𝖾𝗅𝗅𝗈 ⁉️" , event.threadID);
-api.setMessageReaction("🟡", event.messageID, () => {}, true);
+api.sendMessage("🏀 𝗛𝖾𝗅𝗅𝗈 ⁉️𝐛𝐚𝐥𝐚𝐧𝐜𝐞 𝐭𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 ❗" , event.threadID);
+api.setMessageReaction("🏀", event.messageID, () => {}, true);
         return;
       }
       const senderID = event.senderID;
       const senderInfo = await api.getUserInfo([senderID]);
       const senderName = senderInfo[senderID].name;
       const response = await axios.get(`https://api.kenliejugarap.com/freegpt4o8k/?question=${encodeURIComponent(prompt)}`);
-      const answer = `🟢 𝘼𝙀-𝙎𝙏𝙃𝙀𝙍 ⚪ :\n\n${response.data.response} 🟡`;
+      const answer = `🟢 𝐒𝐀𝐏𝐈𝐄𝐍𝐒 ⚪ :\n\n${response.data.response} 🟡`;
 api.setMessageReaction("🟢", event.messageID, () => {}, true);
 
       //apply const font to each letter in the answer
