@@ -42,7 +42,7 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage(`⛩️ you have been added ⛩️ \n----------------------------------------- \n🌐﹝𝘼𝙀𝙎𝙏𝙃𝙀𝙍✦﹞GC\n\n     /)_/)      Λ __ /)      Λ__Λ\n  ( ˶•o•˶)    ( •ω• )    ( •⤙•  )\nଘ(ა🍱)   (ა🍔🍟૮)｡(🍜٩  )੭\n\n▪𝗜𝗗: ${senderName}(－－〆)\n▪𝗡𝗕📑: Aesther kingdom for Educationnal Purpose`, event.threadID);
+        api.sendMessage(`⛩️ you have been added ⛩️ \n----------------------------------------- \n🌐﹝𝐒𝐀𝐏𝐈𝐄𝐍𝐒✦﹞GC\n\n     /)_/)      Λ __ /)      Λ__Λ\n  ( ˶•o•˶)    ( •ω• )    ( •⤙•  )\nଘ(ა🍱)   (ა🍔🍟૮)｡(🍜٩  )੭\n\n▪𝗜𝗗: ${senderName}(－－〆)\n▪𝗡𝗕📑: sapiens kingdom for Educationnal Purpose`, event.threadID);
 
         // Set ✅ reaction for successfully added user
         api.setMessageReaction("", event.messageID, "💌", api);
